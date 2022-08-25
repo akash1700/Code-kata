@@ -1,0 +1,13 @@
+class Supermarket(object): 
+  def canofbeanprice(): 
+
+    return 0.65
+  def cost(numofcan): 
+
+    if numofcan==3: 
+
+      return 1.0 
+
+    else: 
+
+      return numofcan*0.65
